@@ -35,5 +35,13 @@
     "not ie 11"
   ],
   "keywords": [],
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1469336821/work.git"
+  },
+  "bugs": {
+    "url": "https://github.com/1469336821/work/issues"
+  },
+  "homepage": "https://github.com/1469336821/work#readme"
 }

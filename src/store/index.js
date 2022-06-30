@@ -29,7 +29,12 @@ export default createStore({
   modules: {
   },
 
-  // //持久化数据
+  //持久化数据
+  plugins: [
+    createPersistedState({ 
+      storage: window.sessionStorage 
+    })
+  ]
   // plugins: [
   //   createPersistedState({
   //     // 存储方式：localStorage、sessionStorage、cookies
